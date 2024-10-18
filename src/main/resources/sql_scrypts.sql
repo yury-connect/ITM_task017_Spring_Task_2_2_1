@@ -1,4 +1,6 @@
 \c itm_task017_spring_task_2_2_1_db;                         -- Переключает активную базу данных на ITM_task013_TaskHibernate_Task_2_db;
+SELECT table_name FROM information_schema.tables WHERE table_schema = 'public'; -- Показать все таблицы из базы данных
+
 
 DROP TABLE IF EXISTS users;
 DROP DATABASE IF EXISTS itm_task017_spring_task_2_2_1_db;    -- Удаляю базу если она существует;
